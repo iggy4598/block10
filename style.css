@@ -1,0 +1,44 @@
+body{
+    background-size: cover;
+   background-repeat:no-repeat;
+    background-image: url(https://cdn.topofart.com/images/artists/Harmenszoon_van_Rijn_Rembrandt/paintings-wm/rembrandt253.jpg)
+}
+.form-text{
+    color: white;
+}
+.form-label{
+    color: white;
+}
+.image{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    z-index: -1;
+}
+.i2{
+    position: absolute;/*make the image stay in that one spot*/
+    z-index:-1;/*make the image hide behind*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+li:nth-child(even){
+    background-color: red;
+    width: 50px;
+}/*makes my last name red but the other 2 word the same because i added it for even numbers*/
+  @media only screen and (max-width:1024px) {
+    /* For Ipad: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+    @media only screen and (max-width:480px){
+
+    }
